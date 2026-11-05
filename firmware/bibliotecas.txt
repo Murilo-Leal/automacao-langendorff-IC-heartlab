@@ -1,0 +1,22 @@
+# Bibliotecas usadas no firmware
+# Instale pela Arduino IDE: Ferramentas > Gerenciar Bibliotecas (pesquise pelo nome).
+# Anote a versão instalada no lugar de "____" (aparece no Gerenciador de Bibliotecas).
+
+## Todos os módulos
+RF24                      – TMRh20 (nRF24)        – versão ____ – https://github.com/nRF24/RF24
+SPI                       – nativa da Arduino IDE
+
+## Módulo de Aquisição (Arduino Nano)
+Sensirion I2C SF06-LF     – Sensirion             – versão ____ – (cabeçalho SensirionI2cSf06Lf.h, sensor SLF3S-4000B)
+Wire (I²C)                – nativa da Arduino IDE
+# MAX6675 e Honeywell ABP: lidos diretamente por SPI/I²C, sem biblioteca externa.
+
+## Módulo Central (ESP32)
+esp32 (pacote de placas)  – Espressif Systems     – versão ____ – Gerenciador de Placas
+BluetoothSerial           – incluída no pacote esp32
+HardwareSerial            – incluída no pacote esp32
+
+## Módulo de Controle (Arduino Nano)
+Servo                     – nativa da Arduino IDE
+Wire (I²C)                – nativa da Arduino IDE
+AS5600                    – Rob Tillaart          – versão ____ – encoder magnético (cabeçalho AS5600.h)

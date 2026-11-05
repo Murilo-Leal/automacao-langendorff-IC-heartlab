@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Arduino / PlatformIO
+build/
+.pio/
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+# Backups do Fusion 360 e editores
+*.bak
+*~
+# IDEs
+.theia/
+launch.json
+.vscode/

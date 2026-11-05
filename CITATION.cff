@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Se usar este material, cite-o conforme abaixo."
+title: "Automação do setup experimental para o estudo de arritmias cardíacas em modelos animais"
+version: "1.0"
+date-released: "2026-11-10"
+authors:
+  - family-names: "Santos"
+    given-names: "Murilo Leal"
+    affiliation: "Universidade Federal do ABC"
+  - family-names: "Salinet Júnior"
+    given-names: "João Loures"
+    affiliation: "Universidade Federal do ABC"
+keywords:
+  - Langendorff
+  - instrumentação biomédica
+  - eletrofisiologia cardíaca
+  - automação
+  - Arduino
+  - ESP32
